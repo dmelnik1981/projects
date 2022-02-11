@@ -6,4 +6,3 @@ def foo(a):
 
 x = input("Введите слово: ")
 foo(x)
-print("VS Code")
