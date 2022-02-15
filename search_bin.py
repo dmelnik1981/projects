@@ -12,8 +12,7 @@ def  search_bin(num, item):
    return None
 
 a = [1,3,5,7,9,11]
-x = 4
-print(search_bin(a,x))
+search_bin(a,3)
 
 
 
