@@ -3,16 +3,17 @@ def  search_bin(num, item):
    high = len(num)-1
    while low <= high:
          mid = (high-low)//2
-         if item == num[mid]:
+         guess = num[mid]
+         if item == guess:
              return mid
-         if item < num[mid]:
+         if item < guess:
             high = mid-1
          else:
             low = mid+1
    return None
 
 a = [1,3,5,7,9,11]
-search_bin(a,3)
+print(search_bin(a,3))
 
 
 
